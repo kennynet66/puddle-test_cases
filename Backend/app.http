@@ -1,0 +1,20 @@
+POST http://localhost:3000/user/register
+Content-Type: application/json
+
+{
+    "email": "sharon@gmail.com",
+    "fullName": "sharon net",
+    "userName": "@sharonnet66",
+    "password":"test12",
+    "phoneNumber": "0712345678"
+}
+
+###
+POST http://localhost:5000/users/signup
+Content-Type: application/json
+
+{
+    "full_name" : "Sharon",
+    "email": "sharon@gmail.com",
+    "password": "Boomplay@1"
+}
